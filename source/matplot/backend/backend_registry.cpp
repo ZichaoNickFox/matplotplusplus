@@ -8,6 +8,6 @@ namespace matplot {
     std::shared_ptr<backend::backend_interface> create_default_backend() {
         // Maybe this can change in the future depending on what
         // libraries CMake finds in the system
-        return create_backend<backend::gnuplot>();
+        return create_backend<backend::opengl_embed>();
     }
 } // namespace matplot
