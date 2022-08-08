@@ -20,7 +20,8 @@
 /// run-time. GLAD is an open source library that manages all that
 /// cumbersome work we talked about.
 /// \see https://learnopengl.com/Getting-started/Creating-a-window
-#include <glad/glad.h>
+// #include <glad/glad.h>
+#include "GL/glew.h"
 
 /// GLFW gives us the bare necessities required for rendering goodies
 /// to the screen. It allows us to create an OpenGL context, define
