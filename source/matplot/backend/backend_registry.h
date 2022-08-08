@@ -6,7 +6,7 @@
 #define MATPLOTPLUSPLUS_BACKEND_REGISTRY_H
 
 #include <matplot/backend/backend_interface.h>
-#include <matplot/backend/backend_registry.h>
+#include <matplot/backend/opengl_embed.h>
 #include <stdexcept>
 
 namespace matplot {
